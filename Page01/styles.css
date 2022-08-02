@@ -1,3 +1,142 @@
-.body{
-    height: 100vh;
+body {
+    min-height: 100vh;
+    font-family:'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    
 }
+
+ul{
+    list-style-type: none;   
+}
+
+button{
+    background-color: rgb(13, 105, 224);
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    color: white;
+    height: 30px;
+    width: 100px;
+    text-align: centers;
+}
+
+.header {
+    background-color: rgb(54, 54, 136);
+    height: 50px;
+    padding-left: 0;
+    font-size: 20px;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content:space-between;
+}
+
+.header div{
+    display: flex;
+    font-size: 35px;
+    margin: 5px;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.header ul{
+    display: flex;
+    justify-content: flex-end;
+    align-content:center;
+    margin: 15px;
+}
+
+#links{
+    gap: 30px;
+    font-size: 15px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    display: flex;
+    background-color: rgb(54, 54, 136);
+    color : white;
+    gap: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+}
+
+
+.title p{
+    
+}
+
+._titleL{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    align-content: center;
+    flex: 1;
+}
+.img_{
+    height: auto;
+    width: 300px;
+    background-color: grey;
+    align-content: center;
+    flex: 1;
+}
+
+.random_info{
+    background-color: white;
+}
+
+.quote_{
+    background-color: lightgray;
+    height: 300px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.end #head{
+    font-size: 20px;
+}
+
+.end #msg{
+    font-size: 15px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(54, 54, 136);
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+
+}
+
